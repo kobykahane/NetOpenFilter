@@ -18,19 +18,19 @@
       <Extensions>inf;inv;inx;mof;mc;</Extensions>
     </Filter>
   </ItemGroup>
- <ItemGroup>
+  <ItemGroup>
     <Inf Include="NetOpenFilter.inf">
       <Filter>Driver Files</Filter>
     </Inf>
-  </ItemGroup>  
-  <ItemGroup>
-    <ClCompile Include="NetOpenFilter.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="NetOpenFilter.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetOpenFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
